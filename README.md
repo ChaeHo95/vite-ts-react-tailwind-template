@@ -6,4 +6,4 @@
 3. eslint
 4. husky
 5. lint-staged
-6commitlint
+6. commitlint
