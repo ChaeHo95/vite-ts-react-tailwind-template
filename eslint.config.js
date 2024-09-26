@@ -28,6 +28,10 @@ export default tseslint.config(
       ],
       'prettier/prettier': 'error',
       'react/react-in-jsx-scope': 'off', // React 17 이상에서는 불필요
+      'no-var': 'error', // var 금지
+      'no-multiple-empty-lines': 'error', // 여러 줄 공백 금지
+      'no-console': ['error', { allow: ['warn', 'error', 'info'] }], // console.log() 금지
+      'no-unused-vars': 'error', // 사용하지 않는 변수 금지
     },
   },
   eslintConfigPrettier
