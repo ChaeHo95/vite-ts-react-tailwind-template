@@ -7,4 +7,3 @@
 4. husky
 5. lint-staged
 6. commitlint
-# my-portfolio
