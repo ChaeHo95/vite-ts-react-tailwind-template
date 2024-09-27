@@ -43,16 +43,16 @@
     },
     "lint-staged": {
         "*.ts": [
-            "eslint"
+            "eslint --fix"
         ],
         "*.tsx": [
-            "eslint"
+            "eslint --fix"
         ],
         "*.js": [
-            "eslint"
+            "eslint --fix"
         ],
         "*.jsx": [
-            "eslint"
+            "eslint --fix"
         ]
     }
 }
